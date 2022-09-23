@@ -15,7 +15,7 @@ Pod::Spec.new do |spec|
     spec.ios.deployment_target = '10.0'
     spec.osx.deployment_target = '10.11'
   
-    spec.source       = { :http => "https://github.com/pannawatth/Specs/releases/download/97.4692.05/WebRTC.xcframework.zip" }
+    spec.source       = { :http => "https://github.com/pannawatth/Specs/releases/download/97.4692.05/WebRTC.xcframework.zip", :tag => spec.version.to_s}
     spec.vendored_frameworks = "WebRTC.xcframework"
     
   end
